@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+}
+
+.button3 {
+  width: 180px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+  color: #000;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.button-3 {
+  background-color: transparent;
+  border: 3px solid cyan;
+  border-radius: 50px;
+  -webkit-transition: all .15s ease-in-out;
+  transition: all .15s ease-in-out;
+  color: #00d7c3;
+}
+
+.button-3:hover {
+  box-shadow: 0 0 10px 0 cyan inset, 0 0 20px 2px cyan;
+}
+

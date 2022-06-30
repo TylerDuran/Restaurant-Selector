@@ -1,0 +1,94 @@
+.backGround {
+    background-image: linear-gradient(#464545, #000000);
+    color: white;
+    height: 100vh;
+    width: 100%;
+    padding: 15px;
+    overflow-y: overlay;
+}
+
+.restuarantDisplay {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 400px;
+    overflow-y: overlay;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+.restuarantDisplay:hover {
+    cursor: pointer;
+    background-color: black;
+    opacity: 0.8;
+    border-radius: 50px;
+    width: 500px;
+    padding-left: 50px;
+}
+
+.yourRes {
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+}
+
+.yourRes:hover {
+    color: cyan;
+    text-decoration: none;
+    font-size: larger;
+    text-decoration: underline;
+}
+
+/* This is the special button  Credits to slider revolution for this button*/
+
+.button {
+    width: 220px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: #000;
+    font-weight: 600;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.button-1 {
+    background-color: transparent;
+    border: 3px solid cyan;
+    border-radius: 50px;
+    -webkit-transition: all .15s ease-in-out;
+    transition: all .15s ease-in-out;
+    color: #00d7c3;
+}
+
+.button-1:hover {
+    box-shadow: 0 0 10px 0 cyan inset, 0 0 20px 2px cyan;
+}
+
+
+.button2 {
+    width: 60px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    color: #000;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.button-2 {
+    background-color: transparent;
+    border: 3px solid cyan;
+    border-radius: 50px;
+    -webkit-transition: all .15s ease-in-out;
+    transition: all .15s ease-in-out;
+    color: #00d7c3;
+}
+
+.button-2:hover {
+    box-shadow: 0 0 10px 0 cyan inset, 0 0 20px 2px cyan;
+}
